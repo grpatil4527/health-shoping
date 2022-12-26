@@ -1,0 +1,135 @@
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-image: url("https://images.unsplash.com/photo-1535914254981-b5012eebbd15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhlYWx0aHxlbnwwfHwwfHw%3D&w=1000&q=80");
+ }
+ .max-width
+ {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+ }
+
+ /*nav bar stylling*/
+
+ .navbar
+ {
+     position: fixed;
+     width: 100%;
+    padding: 30px 0;
+     background-color:gray;
+     
+     font-family: 'Ubuntu', sans-serif;
+    }
+    .navbar .max-width
+    {
+      display: flex;   
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbar .logo a{
+        color:aqua;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .navbar .logo a span
+    {
+        color: rgb(66, 38, 139);
+    }
+    .navbar .menu li{
+        list-style: none;
+        display: inline-block;
+        
+    }
+ .navbar .menu li a{
+    color:black;
+    font-size: 18px; 
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover
+{
+    color: rgb(220, 19, 19);
+}
+
+/* home section styling */
+.home
+{
+  background-color: cornflowerblue;
+    display: flex;
+    
+    color:black;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width
+{
+    margin: auto 0 auto 40px;
+    
+}
+.home .home-content .text-1
+{
+    font-size: 27px;
+
+}
+.home .home-content .text-2
+{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    
+}
+.home .home-content .text-3
+{
+    font-size: 40px;
+    margin: 5px 0;
+    
+}
+.home .home-content .text-1
+{
+    font-size: 27px;
+    
+}
+.home .home-content .text-3 span
+{
+    color:purple;
+    font-weight: 500;
+}
+.img{
+    width:fit-content;
+    height:fit-content;
+    
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.box .content .star {
+padding: 2.5rem;
+background: #fff;
+border-radius: .5rem;
+border: .1rem solid rgba(0,0,0,.2);
+box-shadow: var(--box-shadow);
+position: relative;
+overflow:hidden;
+text-align:center;
+}
+.card{
+    width=20px;
+    background-color: gary;
+}
+.title{
+ text-align: center;   
+}
+.des{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+}

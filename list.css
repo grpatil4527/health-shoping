@@ -1,0 +1,56 @@
+header,footer{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    color: whitesmoke;  
+    margin-left: 20px;
+
+}
+
+header {
+    padding: 20px;
+}
+
+footer{
+    height: 15vh;
+    bottom: 0;
+}
+
+footer h6{
+    position: absolute;
+    margin-top:10px ;
+    margin-left: 20px;
+}
+
+.nav{
+    position: relative;
+    font-size: 12px;
+}
+
+#list a{
+    position:relative;
+    top: 100%;
+    left: 10px;
+    top: 110px;
+    color: Black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    
+
+}
+#first-item a{
+    position:relative;
+    top: 100%;
+    left: 10px;
+    top: 10px;
+    color: Black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    
+
+}
+body{
+    border: 2px;
+}
